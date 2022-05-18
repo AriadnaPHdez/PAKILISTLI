@@ -1,46 +1,11 @@
-/* 
-// local reviews data
-const reviews = [
-    {
-      id: 1,
-      name: "ACEVEDO LÓPEZ ABRAHAM",
-      job: "Scrum Master/Programador/Diseñador",
-      img:
-        "https://raw.githubusercontent.com/AriadnaPHdez/PAKILISTLI/main/pic-rutinas/abraham.jpg",
-      text:
-        "Administrar y controlar los recursos del proyecto/Programación de la aplicación móvil.",
-       
-    },
-    {
-      id: 2,
-      name: "Cervantes Acosta Héctor Iván",
-      job: "Analista/Programador/Tester",
-      img:
-        "https://raw.githubusercontent.com/AriadnaPHdez/PAKILISTLI/main/pic-rutinas/hector.png",
-      text:
-        "Combración del funcionamiento correcto de acuerdo a los requisitos funcionales de la aplicación móvil y plataforma web. / Programación de la aplicación móvil.",
-   
-    },
-    {
-      id: 3,
-      name: "Pérez Hernández Ariadna",
-      job: "Programador/Documentador/Diseñador",
-      img:
-        "https://raw.githubusercontent.com/AriadnaPHdez/PAKILISTLI/main/pic-rutinas/ariadna.png",
-      text:
-        "Diseño y programación de interfaces del sitio web/Documentador de procesos",
-        
-    },
-   
-  ]; */
 
 
-  // local reviews data
+ // local reviews data
 const reviews = [
   {
     id: 1,
       name: "ACEVEDO LÓPEZ ABRAHAM",
-      job: "Scrum Master/Programador/Diseñador",
+      job: "Scrum Master/ Programador/ Diseñador",
       img:
         "https://raw.githubusercontent.com/AriadnaPHdez/PAKILISTLI/main/pic-rutinas/abraham.jpg",
       text:
@@ -49,7 +14,7 @@ const reviews = [
   {
     id: 2,
       name: "Cervantes Acosta Héctor Iván",
-      job: "Analista/Programador/Tester",
+      job: "Analista/ Programador/ Tester",
       img:
         "https://raw.githubusercontent.com/AriadnaPHdez/PAKILISTLI/main/pic-rutinas/hector.png",
       text:
@@ -58,7 +23,7 @@ const reviews = [
   {
     id: 3,
     name: "Pérez Hernández Ariadna",
-    job: "Programador/Documentador/Diseñador",
+    job: "Programador/ Documentador/ Diseñador",
     img:
       "https://raw.githubusercontent.com/AriadnaPHdez/PAKILISTLI/main/pic-rutinas/ariadna.png",
     text:
