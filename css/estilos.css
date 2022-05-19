@@ -52,7 +52,82 @@ ol{
     /* border-radius: 57% 43% 41% 59% / 30% 39% 61% 70%;  */ 
     transition: all 0.4s;
 
+} 
+
+/*Tamaño de una tableta*/
+@media screen and (max-width:800px){
+  .category_list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 49%;
 }
+
+  .category_list .category_item{
+    display: block;
+    width: 90%;
+    /* padding: 15px 0; */
+    padding: 1rem 0.75rem;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background: #7edbd4;  
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px ;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.493);
+    /* border-radius: 57% 43% 41% 59% / 30% 39% 61% 70%;  */ 
+    transition: all 0.4s;
+  }
+
+  .product-list .product-item{
+    width: 10rem;
+    background-color: #7edbb4;
+    margin-left: 3%;
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.493);
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 1rem;
+    transition: all 0.4s;
+  }
+
+  .product-list{
+    width: 1rem;
+    /* width: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 2rem;
+    
+  }
+  .product-list .product-item img{
+    width: 100%;
+    border-radius: 15px 15px 15px 15px ;
+  }
+
+  .product-list .product-item a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+/*Tamaño de un celular*/
+/* @media screen and (max-width:450px){
+
+  .category_list .category_item{
+    display: block;
+    width: 100%;
+    padding: 1rem 0.75rem;
+    margin-bottom: 1rem;
+    background: #7edbd4;  
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 50px 50px 50px 50px ;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.493);
+    
+    transition: all 0.4s;
+  }
+} */
 .category_list .category_item:hover{
     background: #3ea1c2;
 }
@@ -62,7 +137,8 @@ ol{
 
 /* Productos */
 .product-list{
-    width: 200px;
+    width: 3rem;
+    /* width: 200px; */
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -70,7 +146,7 @@ ol{
 }
 
 .product-list .product-item{
-    width: 30%;
+    width: 12rem;
     background-color: #7edbb4;
     margin-left: 3%;
     margin-bottom: 25px;
